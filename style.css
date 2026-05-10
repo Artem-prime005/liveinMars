@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url('https://wallpaper.forfun.com/fetch/56/56bbe282697ff1e0141b76855b04ea8f.jpeg'); 
+    background-repeat: no-repeat;             
+    background-size: cover;                   
+    background-position: center;              
+    background-attachment: fixed;
+}
+
+header {
+    background-image: linear-gradient(rgb(187, 53, 0), rgb(255, 136, 0));
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;           
+    padding: 50px 20px;
+    gap: 120px;
+    flex-direction: row;
+
+}
+
+.mars{
+    font-size: 16px;
+    background: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.mars:hover{
+    font-size: 16px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 5px white;
+    transform: scale(1.2);
+    transition: transform 1.2s;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white; 
+}
+
+.sun{
+    display: flex;        
+    align-items: center;   
+    justify-content: space-between; 
+    gap: 40px;             
+    padding: 20px;
+}
+
+.imgmars{
+    border-radius: 50px;
+    width: 500px;
+    box-shadow: 0 0 40px 5px orange;
+}
+
+.invoker{
+    width: 100px;
+    margin-right: auto;
+}
+
+h2{
+    color: white;
+    text-align: center;
+
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+}
+
+.SF{
+    color: chocolate;
+    text-decoration: none;
+}
